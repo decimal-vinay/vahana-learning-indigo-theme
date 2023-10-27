@@ -1,9 +1,9 @@
 variables:
-    TUTOR_PLUGIN: indigo
-    TUTOR_PYPI_PACKAGE: tutor-indigo
+    TUTOR_PLUGIN: vahana
+    TUTOR_PYPI_PACKAGE: vahana-learning-indigo-theme
     TUTOR_BUILD_IMAGE: openedx
     OPENEDX_RELEASE: palm
-    GITHUB_REPO: overhangio/tutor-indigo
+    GITHUB_REPO: decimal-vinay/vahana-learning-indigo-theme
 
 include:
   - project: 'community/tutor-ci'

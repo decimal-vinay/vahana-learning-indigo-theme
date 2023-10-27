@@ -25,13 +25,13 @@ ABOUT = load_about()
 
 
 setup(
-    name="vahana-learning-indigo-theme",
+    name="vahana-learning-vahanalearning-theme",
     version=ABOUT["__version__"],
-    url="https://github.com/decimal-vinay/vahana-learning-indigo-theme",
+    url="https://github.com/decimal-vinay/vahana-learning-vahanalearning-theme",
     project_urls={
         "Documentation": "https://docs.tutor.overhang.io/",
-        "Code": "https://github.com/decimal-vinay/vahana-learning-indigo-theme",
-        "Issue tracker": "https://github.com/decimal-vinay/vahana-learning-indigo-theme/issues",
+        "Code": "https://github.com/decimal-vinay/vahana-learning-vahanalearning-theme",
+        "Issue tracker": "https://github.com/decimal-vinay/vahana-learning-vahanalearning-theme/issues",
         "Community": "https://discuss.openedx.org",
     },
     license="AGPLv3",
@@ -45,7 +45,7 @@ setup(
     include_package_data=True,
     python_requires=">=3.8",
     install_requires=["tutor>=16.0.0,<17.0.0"],
-    entry_points={"tutor.plugin.v1": ["indigo = vahanalearning.plugin"]},
+    entry_points={"tutor.plugin.v1": ["vahana = vahanalearning.plugin"]},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",

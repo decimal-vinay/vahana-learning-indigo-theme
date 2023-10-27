@@ -23,7 +23,7 @@ config = {
             {"title": "Terms of service", "url": "/tos"},
             {
                 "title": "Indigo theme for Open edX",
-                "url": "https://github.com/overhangio/tutor-indigo",
+                "url": "https://github.com/decimal-vinay/vahana-learning-indigo-theme",
             },
         ],
     },
@@ -33,18 +33,18 @@ config = {
 
 # Theme templates
 hooks.Filters.ENV_TEMPLATE_ROOTS.add_item(
-    pkg_resources.resource_filename("tutorindigo", "templates")
+    pkg_resources.resource_filename("vahanalearning", "templates")
 )
 # This is where the theme is rendered in the openedx build directory
 hooks.Filters.ENV_TEMPLATE_TARGETS.add_items(
     [
-        ("indigo", "build/openedx/themes"),
+        ("vahana", "build/openedx/themes"),
     ],
 )
 
 # Force the rendering of scss files, even though they are included in a "partials" directory
 hooks.Filters.ENV_PATTERNS_INCLUDE.add_item(
-    r"indigo/lms/static/sass/partials/lms/theme/"
+    r"vahana/lms/static/sass/partials/lms/theme/"
 )
 
 # Load all configuration entries

@@ -39,7 +39,7 @@ Configuration
 - ``INDIGO_WELCOME_MESSAGE`` (default: "The place for all your online learning")
 - ``INDIGO_PRIMARY_COLOR`` (default: "#3b85ff")
 - ``INDIGO_FOOTER_NAV_LINKS`` (default: ``[{"title": "About", "url": "/about"}, {"title": "Contact", "url": "/contact"}]``)
-- ``INDIGO_FOOTER_LEGAL_LINKS`` (default: ``[{"title": "Terms of service", "url": "/tos"}, {"title": "Indigo theme for Open edX", "url": "https://github.com/decimal-vinay/vahana-learning-vahanalearning-theme"}]``)
+- ``INDIGO_FOOTER_LEGAL_LINKS`` (default: ``[{"title": "Terms of service", "url": "/tos"}, {"title": "Indigo theme for Open edX", "url": "https://github.com/decimal-vinay/vahana-learning-indigo-theme"}]``)
 
 The ``INDIGO_*`` settings listed above may be modified by running ``tutor config save --set INDIGO_...=...``. For instance, to remove all links from the footer, run::
 
@@ -58,7 +58,7 @@ This plugin can serve as a starting point to create your own themes. Just fork t
 Changing the default logo and other images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The theme images are stored in `vahanalearning/templates/vahanalearning/lms/static/images <https://github.com/decimal-vinay/vahana-learning-vahanalearning-theme/tree/master/vahanalearning/templates/vahanalearning/lms/static/images>`__ for the LMS, and in `vahanalearning/templates/vahanalearning/cms/static/images <https://github.com/decimal-vinay/vahana-learning-vahanalearning-theme/tree/master/vahanalearning/templates/vahanalearning/cms/static/images>`__ for the CMS. To use custom images in your theme, just replace the files stored in these folders with your own.
+The theme images are stored in `vahanalearning/templates/vahanalearning/lms/static/images <https://github.com/decimal-vinay/vahana-learning-indigo-theme/tree/master/vahanalearning/templates/vahanalearning/lms/static/images>`__ for the LMS, and in `vahanalearning/templates/vahanalearning/cms/static/images <https://github.com/decimal-vinay/vahana-learning-indigo-theme/tree/master/vahanalearning/templates/vahanalearning/cms/static/images>`__ for the CMS. To use custom images in your theme, just replace the files stored in these folders with your own.
 
 Overriding the default "about", "contact", etc. static pages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -99,4 +99,4 @@ This Tutor plugin is maintained by Régis Behmo from `Overhang.IO <https://overh
 License
 -------
 
-This work is licensed under the terms of the `GNU Affero General Public License (AGPL) <https://github.com/decimal-vinay/vahana-learning-vahanalearning-theme/blob/master/LICENSE.txt>`_.
+This work is licensed under the terms of the `GNU Affero General Public License (AGPL) <https://github.com/decimal-vinay/vahana-learning-indigo-theme/blob/master/LICENSE.txt>`_.
